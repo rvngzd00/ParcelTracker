@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap Və Dəyiş</title>
+    <link rel="stylesheet" href="./assets/style/findAndChange.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <div class="form-heading">
+                <div style="display: flex;">
+                    <div>
+                        <div class="text-section" style="width: 350px;">
+                            <label class="text-label">Göndərən</label>
+                            <input type="text" class="text-input" style="width: 60px;" list="order-numbers" />
+                            <datalist id="order-numbers">
+                                <option value="Order001"></option>
+                                <option value="Order002"></option>
+                                <option value="Order003"></option>
+                                <option value="Order004"></option>
+                            </datalist>
+                            <input type="text" class="text-input" />
+                        </div>
+                        <div class="text-section" style="width: 350px;">
+                            <label class="text-label">Kuryer</label>
+                            <input type="text" class="text-input" style="width: 60px;" list="order-numbers" />
+                            <datalist id="order-numbers">
+                                <option value="Order001"></option>
+                                <option value="Order002"></option>
+                                <option value="Order003"></option>
+                                <option value="Order004"></option>
+                            </datalist>
+                            <input type="text" class="text-input" />
+                        </div>
+                    </div>
+                    <div style="margin: 0 0 0 50px;">
+                        <div style="width: 150px;margin:0 0 5px 0">
+                            <input type="text" class="text-input" style="width: 60px;" list="order-numbers" />
+                            <p style="display: inline;">-dən</p>
+                        </div>
+                        <div style="width: 150px;">
+                            <input type="text" class="text-input" style="width: 60px;" list="order-numbers" />
+                            <p style="display: inline;">-dən</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="radios">
+                    <div class="radio-section">
+                        <input type="radio" class="radio-input" id="sender" name="type" />
+                        <label class="radio-label" for="sender">Hamısı</label>
+                    </div>
+                    <div class="radio-section">
+                        <input type="radio" class="radio-input" id="seperation" name="type" />
+                        <label class="radio-label" for="seperation">Paylanma</label>
+                    </div>
+                    <div class="radio-section">
+                        <input type="radio" class="radio-input" id="buklet" name="type" />
+                        <label class="radio-label" for="buklet">Bukletlər</label>
+                    </div>
+                    <div class="radio-section">
+                        <input type="radio" class="radio-input" id="waybil" name="type" />
+                        <label class="radio-label" for="waybil">Waybill - 0</label>
+                    </div>
+                </div>
+                <div style="display: flex;justify-content: end;width: 250px;">
+                    <button class="today-btn">Bu gün</button>
+                </div>
+            </div>
+            <div class="form-table">
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th class="column-sifaris">Sifarişin No</th>
+                            <th class="column-gonderen">Göndərən</th>
+                            <th class="column-waybill">Waybill</th>
+                            <th class="column-paylanma">Paylanma</th>
+                            <th class="column-tarix">Tarix</th>
+                            <th class="column-nov">Növ</th>
+                            <th class="column-kuryer">Kuryer</th>
+                            <th class="column-gonderen-unvan">Göndərənin Ünvanı</th>
+                            <th class="column-alici">Alıcı</th>
+                            <th class="column-alici-unvan">Alıcının Ünvanı</th>
+                            <th class="column-mebleg">Məbləğ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>John Doe</td>
+                            <td>WB12345</td>
+                            <td><input type="checkbox" readonly></td>
+                            <td>2025-05-03</td>
+                            <td>E</td>
+                            <td>Jane Smith</td>
+                            <td>123 Main St</td>
+                            <td>Ali Veli</td>
+                            <td>456 Elm St</td>
+                            <td>$100</td>
+                        </tr>
+
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
