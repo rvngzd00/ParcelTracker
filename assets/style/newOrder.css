@@ -118,8 +118,7 @@ h1 {
 }
 
 .opposite-button,
-.btn-submit,
-.btn-reset {
+.btn-submit {
     width: 245px;
     padding: 7px 5px;
     font: 700 20px arial;
@@ -143,9 +142,7 @@ h1 {
     background-color: var(--success-hover);
 }
 
-.btn-reset:hover {
-    background-color: var(--danger-hover);
-}
+
 
 /* RIGHT-COLL */
 .right-coll {
@@ -180,7 +177,7 @@ h1 {
 }
 
 .desc-text-ar {
-    width: 318px;
+    width: 300px;
     text-align: center;
     box-shadow: 0 0 0 2px var(--border-color);
     outline: none;
@@ -191,4 +188,27 @@ h1 {
     justify-content: end;
     width: 490px;
     margin: 0 0 5px;
+}
+
+.back-home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 245px;
+    padding: 7px 5px;
+    font: 700 20px arial;
+    color: var(--text-color);
+    background-color: #469df3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    z-index: 777;
+}
+
+.back-home-button:hover {
+    background-color: var(--secondary-color);
+
 }
