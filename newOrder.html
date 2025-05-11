@@ -9,157 +9,158 @@
 </head>
 
 <body>
-  <a href="index.html" class="back-home-button">Əsas Səhifəyə Qayıt</a>
-
-  <h1>Yeni Sifariş</h1>
-  <div class="container">
-    <form>
-      <div class="form-heading">
-        <div class="rows">
-          <div class="row">
-            <div class="text-section">
-              <label class="text-label">Sifariş No</label>
-              <input type="text" class="text-input" />
+  <div class="vcontainer">
+    <h1>Yeni Sifariş</h1>
+    <div class="container">
+      <form>
+        <div class="form-heading">
+          <div class="rows">
+            <div class="row">
+              <div class="text-section">
+                <label class="text-label" style="width: 80px;">Sifariş No</label>
+                <input type="text" class="text-input" />
+              </div>
+              <div class="text-section">
+                <label class="text-label" style="width: 80px;">Veybil</label>
+                <input type="text" class="text-input" />
+              </div>
             </div>
-            <div class="text-section">
-              <label class="text-label">Veybil</label>
-              <input type="text" class="text-input" />
+            <div class="row">
+              <div class="text-section">
+                <label class="text-label" style="width: 80px;">Klientin Kodu</label>
+                <input type="text" class="text-input" />
+              </div>
+              <div class="text-section">
+                <input type="text" class="text-input" />
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="text-section">
-              <label class="text-label">Klientin Kodu</label>
-              <input type="text" class="text-input" />
+          <div style="width: 350px;">
+            <label class="text-label">Zəng Edənin Adı</label>
+            <input type="text" class="text-input" />
+          </div>
+        </div>
+        <div class="main-colls">
+          <div class="left-coll">
+            <div class="sender">
+              <div class="sender-heading">
+                <h2>GÖNDƏRƏN</h2>
+              </div>
+              <div class="sender-main">
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Göndərənin Adı</label>
+                  <input type="text" class="text-input">
+                </div>
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Ünvanı</label>
+                  <input type="text" class="text-input">
+                </div>
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Nömrəsi</label>
+                  <input type="number" class="text-input">
+                </div>
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 93px;">Zona</label>
+                  <select class="input-select" style="width: 187px;">
+                    <option value="aze">Private</option>
+                  </select>
+                </div>
+              </div>
             </div>
-            <div class="text-section">
-              <select class="input-select">
-                <option value="aze">Private</option>
+            <div>
+              <button class="opposite-button">ƏKS <span>&#8645;</span></button>
+            </div>
+            <!-- SENDER  -->
+            <div class="sender">
+              <div class="sender-heading">
+                <h2>ALAN</h2>
+              </div>
+              <div class="sender-main">
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Göndərənin Adı</label>
+                  <input type="text" class="text-input">
+                </div>
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Ünvanı</label>
+                  <input type="text" class="text-input">
+                </div>
+                <div class="text-section" style="width: 300px;">
+                  <label class="text-label" style="width: 100px;">Nömrəsi</label>
+                  <input type="number" class="text-input">
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="right-coll">
+            <div class="desc-text">
+              <label class="text-label">Tarix</label>
+              <div class="desc-time">
+                <input type="date" class="desc-input-t">
+                <input type="time" class="desc-input-t">
+              </div>
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Xidmət Növü</label>
+              <select class="desc-select">
+                <option value="private">Private</option>
               </select>
             </div>
+            <div class="desc-text">
+              <label class="text-label">Kuryer 1</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Kuryer 2</label>
+              <input class="desc-input" list="clientCodes" name="clientCode">
+              <datalist id="clientCodes">
+                <option value="001">
+                <option value="002">
+                <option value="003">
+                <option value="004">
+                <option value="005">
+              </datalist>
+            </div>
+
+            <div class="desc-text">
+              <label class="text-label">Qiymət</label>
+              <input type="text" class="desc-input">
+            </div>
+
+            <div class="desc-text">
+              <label class="text-label">Xüsusi Qiymət</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Güzəşt %</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Cəmi</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">ƏDV (18%)</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Yekun</label>
+              <input type="text" class="desc-input">
+            </div>
+            <div class="desc-text">
+              <label class="text-label">Əlavə Qeyd</label>
+              <textarea name="" class="desc-text-ar"></textarea>
+            </div>
+            <div class="btns">
+              <button type="submit" class="btn-submit">Qeyd Et Və Çıx</button>
+            </div>
           </div>
         </div>
-        <div style="width: 350px;">
-          <label class="text-label">Zəng Edənin Adı</label>
-          <input type="text" class="text-input" />
-        </div>
+      </form>
+      <div class="back-btn">
+        <a href="./index.html">⬅</a>
       </div>
-      <div class="main-colls">
-        <div class="left-coll">
-          <div class="sender">
-            <div class="sender-heading">
-              <h2>GÖNDƏRƏN</h2>
-            </div>
-            <div class="sender-main">
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Göndərənin Adı</label>
-                <input type="text" class="text-input" style="width: 365px;">
-              </div>
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Ünvanı</label>
-                <input type="text" class="text-input" style="width: 365px;">
-              </div>
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Nömrəsi</label>
-                <input type="number" class="text-input" style="width: 365px;">
-              </div>
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Zona</label>
-                <select class="input-select" style="width: 380px;">
-                  <option value="aze">Private</option>
-                </select>
-              </div>
-
-            </div>
-          </div>
-          <div>
-            <button class="opposite-button">ƏKS <span>&#8645;</span></button>
-          </div>
-          <div class="sender">
-            <div class="sender-heading">
-              <h2>ALAN</h2>
-
-            </div>
-            <div class="sender-main">
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Adı</label>
-                <input type="text" class="text-input" style="width: 365px;">
-              </div>
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Ünvanı</label>
-                <input type="text" class="text-input" style="width: 365px;">
-              </div>
-              <div class="text-section" style="width: 500px;">
-                <label class="text-label" style="width: 100px;">Nömrəsi</label>
-                <input type="number" class="text-input" style="width: 365px;">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="right-coll">
-          <div class="desc-text">
-            <label class="text-label">Tarix</label>
-            <div class="desc-time">
-              <input type="date" class="desc-input-t">
-              <input type="time" class="desc-input-t">
-            </div>
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Xidmət Növü</label>
-            <select class="desc-select">
-              <option value="private">Private</option>
-            </select>
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Kuryer 1</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Kuryer 2</label>
-            <input class="desc-input" list="clientCodes" name="clientCode">
-            <datalist id="clientCodes">
-              <option value="001">
-              <option value="002">
-              <option value="003">
-              <option value="004">
-              <option value="005">
-            </datalist>
-          </div>
-
-          <div class="desc-text">
-            <label class="text-label">Qiymət</label>
-            <input type="text" class="desc-input">
-          </div>
-
-          <div class="desc-text">
-            <label class="text-label">Xüsusi Qiymət</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Güzəşt %</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Cəmi</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">ƏDV (18%)</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Yekun</label>
-            <input type="text" class="desc-input">
-          </div>
-          <div class="desc-text">
-            <label class="text-label">Əlavə Qeyd</label>
-            <textarea name="" class="desc-text-ar"></textarea>
-          </div>
-          <div class="btns">
-            <button type="submit" class="btn-submit">Qeyd Et Və Çıx</button>
-          </div>
-        </div>
-      </div>
-    </form>
+    </div>
   </div>
 </body>
 
