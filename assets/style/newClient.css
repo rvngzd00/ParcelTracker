@@ -38,6 +38,7 @@ h4 {
 
 form {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -62,7 +63,7 @@ legend {
 
 .container {
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+    border-radius: 6px;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     padding: 10px;
     border: 1px solid var(--border-color);
@@ -107,9 +108,8 @@ legend {
 
 }
 
-.btn-submit,
-.btn-reset {
-    width: 160px;
+.btn-submit{
+    width: 400px;
     padding: 8px 0;
     font: 700 18px arial;
     color: var(--text-color);
@@ -121,12 +121,10 @@ legend {
 }
 
 .btn-submit:hover {
-    background-color: var(--success-hover);
+    background-color: #0066cc;
 }
 
-.btn-reset:hover {
-    background-color: var(--danger-hover);
-}
+
 
 .back-btn {
     position: fixed;
