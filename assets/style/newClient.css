@@ -101,7 +101,12 @@ legend {
     font-size: 1rem;
     color: #222;
 }
-
+.input-select{
+     background-color: var(--input-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    text-align: center;
+}
 .btns {
     display: flex;
     justify-content: center;
