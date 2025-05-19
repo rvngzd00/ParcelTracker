@@ -1,0 +1,120 @@
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 30px;
+        }
+        .invoice-container {
+            background: #fff;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 24px 32px 32px 32px;
+            border: 1px solid #bbb;
+            box-shadow: 0 2px 8px #0001;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #222;
+            padding-bottom: 8px;
+            margin-bottom: 8px;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 1.7rem;
+            letter-spacing: 1px;
+            margin-right: 16px;
+        }
+        .express {
+            font-style: italic;
+            font-size: 1.3rem;
+            color: #222;
+        }
+        .header-details {
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+        }
+        .header-details span {
+            display: inline-block;
+            margin-right: 18px;
+        }
+        .invoice-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 12px 0 4px 0;
+        }
+        .invoice-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px 32px;
+            font-size: 1rem;
+            margin-bottom: 6px;
+        }
+        .invoice-info span {
+            margin-right: 12px;
+        }
+        .address {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .info-col {
+            width: 48%;
+        }
+        .info-box {
+            border: 1px solid #888;
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-size: 0.97rem;
+            margin-bottom: 10px;
+        }
+        .info-box strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+        .table-title {
+            font-size: 0.98rem;
+            margin: 12px 0 4px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 6px;
+            font-size: 0.98rem;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 6px 8px;
+            text-align: left;
+        }
+        th {
+            background: #e9ecef;
+            font-weight: 600;
+            text-align: center;
+        }
+        td {
+            background: #fff;
+        }
+        .right {
+            text-align: right;
+        }
+        .center {
+            text-align: center;
+        }
+        .total-row td {
+            font-weight: bold;
+            background: #f3f6fa;
+        }
+        .footer {
+            margin-top: 18px;
+            font-size: 0.95rem;
+        }
+        @media (max-width: 700px) {
+            .invoice-container { padding: 10px; }
+            .info-row { flex-direction: column; }
+            .info-col { width: 100%; }
+        }
