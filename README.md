@@ -5,6 +5,9 @@
 #default valueleri duzeld
 #Courier/courierHomePage layout/title problemi
 #Order/InvoiceTab yuxardakiyla eyni problem
+#findandchangede basanda edite aparmir
 #kuryerlerin maasinda kuryere basanda kuryer sehifesine kecmelidi ?
 #kuryerlerin maasinda cox yer var nese duz deyil elebil
-#invoice header-detailsin icindeki unvan, telefon, muqavile nomresi dinamik gelmelidi
+
+#invoice header-detailsin , telefon, muqavile nomresi(kod da eynidir) dinamik gelmelidi+hesab/faktura NOmresi, muqavile tarixi de,
+
