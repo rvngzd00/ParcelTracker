@@ -18,12 +18,13 @@
 #bu borcun yaninda odendi adinda duyme olacag ayliq borcunu 0liyacaq
 #sirketin adina basan kimi print hissesine atacag
 #invoice tap hissesinde de acilandan sonra yuxardan select optionnan musteri secilenden sonra, musterinin ay erzindeki butun sifarislerini gostereciyik, onunda  ayliq umumi borcu yazilacag
-#hesab/faktua printinde 2 dene yanbayan eyni sey dusmelidi
-#butun cedvel hisselerinde Tarixneb saati ayrica sutuna sal
-#butun Back button duz ortada altda olsun
+#hesab/faktua printinde 2 dene yanbayan eyni sey dusmelidi                         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+#butun cedvel hisselerinde Tarixneb saati ayrica sutuna sal                         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+#butun Back button duz ortada altda olsun xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-#Hesabatlar adinda bir hisse olacaq
-#basan kimi kuryerlerim kimi acilacaq
-#icinde Yeni musteri yarat, invoice tap, hesab faktura hissesi olacag
+#Hesabatlar adinda bir hisse olacaq                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#basan kimi kuryerlerim kimi acilacaq                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#icinde Yeni musteri yarat, invoice tap, hesab faktura hissesi olacag                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 
-#sehifelere giris kodu vermek lazim HESABATLAR  HISSESINE ANCAG
+
+#sehifelere giris kodu vermek lazim HESABATLAR  HISSESINE ANCAG !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
