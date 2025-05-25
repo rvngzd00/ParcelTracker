@@ -1,11 +1,11 @@
 # ParcelTracker
 #NOTES
 #sifaris nomresi 1 1 artmalidi 
-#default valueleri duzed/Acilan kimi urgent olsun  
-#Text align right ele
-#Kuryer 1 i secende 2 cide eyni valuede olsun
-#Musteri yaratda muqavile tarixi oxu gelsun
-#Bank zadlarini ayir filedset
+#default valueleri duzed/Acilan kimi urgent olsun                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#Text align right ele                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#Kuryer 1 i secende 2 cide eyni valuede olsun                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#Musteri yaratda muqavile tarixi oxu gelsun                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#Bank zadlarini ayir filedset                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #kuryerlerin maasi hissesinde update olunmalidi,
 #kuryer secilenden(sadece nomresi olacaq) sonra butun (ay erzindeki) sifarisleri ve detaylari gorsenecek, sondada hemin ay ucun cemi maas qeyd olunacaq|kuryerin nomresi adinin solunda cixmalidi
 #Kuryerlerin maasi cedvelden sifaris nomresini sil
@@ -26,5 +26,5 @@
 #basan kimi kuryerlerim kimi acilacaq                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #icinde Yeni musteri yarat, invoice tap, hesab faktura hissesi olacag                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 
-
+#ENTERE BASANDA KI GELEN EKRANI YIGISDIR EGER BOSDURSA VALUELER HECNE OLMASUN........
 #sehifelere giris kodu vermek lazim HESABATLAR  HISSESINE ANCAG !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
