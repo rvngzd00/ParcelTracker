@@ -1,8 +1,5 @@
 # ParcelTracker
-#Find And change de select optionlarda adla kod yanyama secim edilenden sonrada kodun yaninda ad gorsenir select optionda sadece kod gorunmelidi.
 #NOTES
-#kuryerlerin maasi hissesinde update olunmalidi,
-#kuryer secilenden(sadece nomresi olacaq) sonra butun (ay erzindeki) sifarisleri ve detaylari gorsenecek, sondada hemin ay ucun cemi maas qeyd olunacaq
 #kuryerlerin maasinda print elave et
 #invoice hissesinin adini- hesab faktura olaraq deyiseciyik
 #acilanda sirketler gelecey
@@ -29,3 +26,5 @@
 #Kuryerlerin maasi cedvelden sifaris nomresini sil                          !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #kuryerin nomresi adinin solunda cixmalidi                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #kuryer Yarat sehifesinde Kuryerin Nomresini SIL                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#kuryer secilenden sonra butun (ay erzindeki) sifarisleri ve detaylari gorsenecek, hemin ayin maasi olacaq                       !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+
