@@ -1,16 +1,12 @@
 # ParcelTracker
 #NOTES
-#kuryerlerin maasinda print elave et
-#invoice hissesinin adini- hesab faktura olaraq deyiseciyik
-#acilanda sirketler gelecey
-#hesab  faktura hissesinde acan kimi sirketler gelecey yaninda ayliq borclari cixacag
+
 #bu borcun yaninda odendi adinda duyme olacag ayliq borcunu 0liyacaq
-#sirketin adina basan kimi print hissesine atacag
-#invoice tap hissesinde de acilandan sonra yuxardan select optionnan musteri secilenden sonra, musterinin ay erzindeki butun sifarislerini gostereciyik, onunda  ayliq umumi borcu yazilacag
+
+
 #hesab/faktura printinde 2 dene yanbayan eyni sey dusmelidi                         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+#create sifareisde dont nowe ele 0 i
 
-
-#ENTERE BASANDA KI GELEN EKRANI YIGISDIR EGER BOSDURSA VALUELER HECNE OLMASUN........
 ---------------------------------------------------------------------------------------------------------------
 #Hesabatlar adinda bir hisse olacaq                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #basan kimi kuryerlerim kimi acilacaq                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
@@ -27,4 +23,12 @@
 #kuryerin nomresi adinin solunda cixmalidi                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #kuryer Yarat sehifesinde Kuryerin Nomresini SIL                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 #kuryer secilenden sonra butun (ay erzindeki) sifarisleri ve detaylari gorsenecek, hemin ayin maasi olacaq                       !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#ENTERE EGER BOSDURSA VALUELER HECNE OLMASUN........                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#kuryerlerin maasinda print elave et                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#invoice hissesinin adini- hesab faktura olaraq deyiseciyik                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#acilanda sirketler gelecey                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#invoice tap hissesinde de acilandan sonra yuxardan select optionnan musteri secilenden sonra, musterinin ay erzindeki butun sifarislerini gostereciyik, onunda  ayliq umumi borcu yazilacag                         !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 
+#hesab  faktura hissesinde acan kimi sirketler gelecey yaninda ayliq borclari cixacag                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+
+#sirketin adina basan kimi print hissesine atacag                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
