@@ -1,11 +1,7 @@
 # ParcelTracker
 #NOTES
 
-#bu borcun yaninda odendi adinda duyme olacag ayliq borcunu 0liyacaq
-
-
-#hesab/faktura printinde 2 dene yanbayan eyni sey dusmelidi                         PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
-#create sifareisde dont nowe ele 0 i
+#hesab/faktura printinde 2 dene yanbayan eyni sey dusmelidi     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx                     PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
 
 ---------------------------------------------------------------------------------------------------------------
 #Hesabatlar adinda bir hisse olacaq                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
@@ -32,3 +28,7 @@
 #hesab  faktura hissesinde acan kimi sirketler gelecey yaninda ayliq borclari cixacag                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
 
 #sirketin adina basan kimi print hissesine atacag                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+
+#bu borcun yaninda odendi adinda duyme olacag ayliq borcunu 0liyacaq                        !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#create sifareisde dont nowe ele 0 i                       !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
+#zona ayir                       !!!!!!!!!!!!!!!!!!DONE!!!!!!!!!!!!!!!!!
